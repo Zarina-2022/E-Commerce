@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E-Commerce</title>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>E-Commerce</h1>
+        <input type="text" placeholder="Enter product name">
+        <div class="buttons">
+            <button id="cart-btn">Cart&nbsp;&nbsp;<i class="fa-solid fa-cart-arrow-down"></i> </button>
+            <button>Sign up</button>
+            <button>Log in</button>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- Categories -->
+        <section class="category-wrapper">
+            <h1>Categories</h1>
+            <div class="category-list">
+
+                <!-- bu kismi js'te yazdik:
+                <div class="category">
+                    <img src="https://cdn.shopify.com/s/files/1/0935/0236/files/25-best-australian-womens-clothing-brands-white-and-co-label.jpg?v=1671166308">
+                    <p>Clothes</p>
+                </div>
+                -->
+
+            </div>
+        </section>
+        <!-- Products -->
+        <section class="product-wrapper">
+            <h1>Products</h1>
+            <div class="product-list">
+
+                <!-- bu kismi js'te yazdik:
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0935/0236/files/25-best-australian-womens-clothing-brands-white-and-co-label.jpg?v=1671166308">
+                    <p>Spring moda</p>
+                    <p>Clothes</p>
+                    <div class="card-footer">
+                        <span>300 $</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                    -->
+
+            </div>
+        </section>
+
+        <!--  MODAL  -->
+        <div id="modal-wrapper">
+            <div class="modal">
+                <i id="close-btn" class="fa-solid fa-xmark fa-xl" style="color: #e41111; font-weight: bold;"></i>
+                <h1 class="modal-title">Cart &nbsp;&nbsp;<i class="fa-solid fa-cart-arrow-down"></i></h1>
+
+                <!--  Cart  -->
+                <div class="modal-list">
+                     <!-- bu kismi js'te yazdik:
+                    <div class="item">
+                        <img src="https://api.lorem.space/image/fashion?w=640&h=480&r=72">
+                        <h2>Awesome Metal Shoes</h2>
+                        <h2>487 $</h2>
+                        <p>(1)</p>
+                    </div>
+                    -->
+                </div>
+                    
+                <p class="total-wrapper">Total price: <span id="total">5478</span>$</p>
+            
+            </div>
+        </div>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
